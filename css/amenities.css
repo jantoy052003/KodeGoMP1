@@ -27,7 +27,7 @@ header {
 } 
 
 .banner-container{
-    background-image: url(/assets/pexels-ercan-şenkaya-15195270.jpg);
+    background-image: url(./assets/pexels-ercan-şenkaya-15195270.jpg);
     min-height: 450px;
     min-width: 100%;
     /* min-height: 100%; */
@@ -46,7 +46,7 @@ header {
 }
 
 .floor-banner-container{
-    background-image: url(/assets/pexels-pixabay-271897.jpg);
+    background-image: url(./assets/pexels-pixabay-271897.jpg);
     min-height: 350px;
     background-attachment:fixed;
     background-position: center;

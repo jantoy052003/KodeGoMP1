@@ -27,7 +27,7 @@ header {
 } 
 
 .banner-container{
-    background-image: url(/assets/bedroom/pexels-malidate-van-833045.jpg);
+    background-image: url(./assets/bedroom/pexels-malidate-van-833045.jpg);
     min-height: 450px;
     min-width: 100%;
     /* min-height: 100%; */
@@ -46,7 +46,7 @@ header {
 }
 
 .floor-banner-container{
-    background-image: url(/assets/bedroom/pexels-pixabay-276671.jpg);
+    background-image: url(./assets/bedroom/pexels-pixabay-276671.jpg);
     min-height: 350px;
     background-attachment:fixed;
     background-position: center;
