@@ -1,0 +1,92 @@
+body {
+    /* background: url(/assets/pexels-maria-isabella-bernotti-1049298.jpg) no-repeat center center fixed; */
+    /* background-color: #3bf4fb; */
+    background-color: #FFF1D0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100%;
+}  
+
+header {
+    background-color: #FFF1D0;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: lightcoral;
+} 
+
+.banner-container{
+    background-image: url(../assets/pexels-pok-rie-351201.jpg);
+    min-height: 500px;
+    min-width: 100%;
+    width: auto;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+  
+.floor-banner-container{
+    background-image: url(../assets/pexels-pixabay-533971.jpg);
+    min-height: 350px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+main {
+    margin-top: 70px;
+}
+
+#pool-table, #access-road {
+    transition: transform .9s;
+    max-width: 400px;
+    width: 90%;
+    height: auto;
+    border-radius: 30px;
+}
+
+#pool-table:hover, #access-road:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    margin-top: 50px;
+    padding-block: .9rem;
+}
+  
+.footer-nav a {
+    text-decoration: none;
+}
+
+  .footer .copyright {
+    font-size: 0.8rem;
+}

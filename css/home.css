@@ -1,0 +1,56 @@
+
+/* body {
+    background: url(/assets/pexels-daniel-jurin-1835718.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100%;
+}   */
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+
+.navbar-brand img {
+    height: 50px;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: lightcoral;
+} 
+
+main {
+    margin-top: 150px;
+}
+
+.footer {
+    margin-top: 110px;
+    padding-block: .9rem;
+}
+  
+.footer-nav a {
+    text-decoration: none;
+}
+
+.footer .copyright {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 767px){
+    #home h1, #home h5{
+        color: rgb(235, 235, 197);
+    }
+}
