@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/date-booking.css">
+    <title>Book</title>
+</head>
+<body>
+    <header class="header fixed-top mb-5 ">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"> <img src="./assets/serendipity_villa_logo.PNG" alt=""></a>
+              <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav offset-10">
+                  <a class="nav-link active text-warning aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link text-warning" href="./about.html">About</a>
+                  <a class="nav-link text-warning" href="./amenities.html">Amenities</a>
+                  <a class="nav-link text-warning" href="./rooms.html">Rooms</a>
+                  <a class="nav-link text-warning" href="./contact.html">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <video autoplay loop plays-inline muted type="video/mp4" id="myVideo"><source src="https://github.com/jantoy052003/KodeGoMP1/raw/master/assets/videos/beach-video-background.mp4"></video>
+        <section id="booking-form mt-2">
+            <div id="booking" class="section"> 
+                <div class="section-center"> 
+                    <div class="container"> 
+                        <div class="row"> 
+                            <div class="booking-form"> 
+                                <div class="form-header"> 
+                                    <h1>Make your reservation</h1> 
+                                </div> 
+                                <form> 
+                                    <div class="row"> 
+                                        <div class="col-md-6"> 
+                                            <div class="form-group"> 
+                                                <input class="form-control" type="date" required> 
+                                                <span class="form-label">Check In</span> 
+                                            </div> 
+                                        </div> 
+                                        <div class="col-md-6"> 
+                                            <div class="form-group"> 
+                                                <input class="form-control" type="date" required> 
+                                                <span class="form-label">Check out</span> 
+                                            </div> 
+                                        </div> 
+                                    </div> 
+                                    <div class="row"> 
+                                        <div class="col-md-4"> 
+                                            <div class="form-group"> 
+                                                <select class="form-control" required> 
+                                                    <option value="" selected hidden>no of rooms</option> 
+                                                    <option>1</option> 
+                                                    <option>2</option> 
+                                                    <option>3</option> 
+                                                </select> 
+                                                <span class="select-arrow"></span> 
+                                                <span class="form-label">Rooms</span> 
+                                            </div> 
+                                        </div> 
+                                        <div class="col-md-4"> 
+                                            <div class="form-group"> 
+                                                <select class="form-control" required> 
+                                                    <option value="" selected hidden>no of adults</option> 
+                                                    <option>1</option> 
+                                                    <option>2</option> 
+                                                    <option>3</option> 
+                                                </select> 
+                                                <span class="select-arrow"></span> 
+                                                <span class="form-label">Adults</span> 
+                                            </div> 
+                                        </div> 
+                                        <div class="col-md-4"> 
+                                            <div class="form-group"> 
+                                                <select class="form-control" required> 
+                                                    <option value="" selected hidden>no of children</option> 
+                                                    <option>0</option> 
+                                                    <option>1</option> 
+                                                    <option>2</option> 
+                                                </select> 
+                                                <span class="select-arrow"></span> 
+                                                <span class="form-label">Children</span> 
+                                            </div> 
+                                        </div> 
+                                    </div> 
+                                    <div class="row"> 
+                                        <div class="col-md-6"> 
+                                            <div class="form-group"> 
+                                                <input class="form-control" type="email" placeholder="Enter your Email"> 
+                                                <span class="form-label">Email</span> 
+                                            </div> 
+                                        </div> 
+                                        <div class="col-md-6"> 
+                                            <div class="form-group"> 
+                                                <input class="form-control" type="tel" placeholder="Enter you Phone"> 
+                                                <span class="form-label">Phone</span> 
+                                            </div> 
+                                        </div> 
+                                    </div> 
+                                    <div class="form-btn"> 
+                                        <button class="submit-btn" id="book-btn" onclick="bookNow()">Book Now</button> 
+                                    </div> 
+                                </form> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-transparent text-black">
+        <div class="container footer">
+          <div class="row">
+            <div class=" d-flex justify-content-center">
+              <nav class="footer-nav">
+                <a href="./index.html" class="text-black">Home |</a>
+                <a href="./about.html" class="text-black">About |</a>
+                <a href="./amenities.html" class="text-black">Amenities |</a>
+                <a href="./rooms.html" class="text-black">Rooms |</a>
+                <a href="./contact.html" class="text-black">Contact Us</a>
+              </nav>
+            </div>
+            <div class="d-flex align-items-end justify-content-center">
+              <p class="copyright">&copy; Jan Caasi. All rights reserved</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="./js/bootstrap.bundle.js"></script>
+      <script src="./js/main.js"></script>
+      <script src="./js/main.js"></script>
+</body>
+</html>

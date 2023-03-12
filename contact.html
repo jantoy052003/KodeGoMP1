@@ -24,7 +24,7 @@
                   <a class="nav-link" href="./rooms.html">Rooms</a>
                   <a class="nav-link" href="./contact.html">Contact</a>
                   <form action="" class="container-fluid justify-content-end">
-                    <button class="btn btn-sm btn-outline-warning" type="button">Book&nbsp;Now</button>
+                    <button class="btn btn-sm btn-outline-warning" id="book-now" onclick="book()" type="button">Book&nbsp;Now</button>
                   </form>
                 </div>
               </div>
@@ -41,7 +41,7 @@
         </section>
         <!-- TESTIMONIALS -->
             <section class="testimonials mt-2">
-                <div class="containers d-flex justify-content-center p-2 mb-2 mt-2 ">
+                <div class="containers d-flex justify-content-center p-2 mt-2 ">
                     <div class="row">
                         <!-- TESTI4 -->
                         <div id="testi4" class="col border border-2 border-white rounded-3 mt-4 col-auto col-sm-6">
@@ -159,40 +159,38 @@
             </section>
         <!-- END OF TESTIMONIALS -->
         <!-- CONTACT FORM -->
-        <div class="d-flex justify-content-center">
-            <div class="contact-form mt-5">
-                <div class="row">
-                    <div class="col">
-                        <div class="img">
-                            <img src="./assets/pexels-mikhail-nilov-7583935.jpg" style="max-width:250px;" class="rounded-3" alt="">
+        <div class="contact-form mt-4 d-flex justify-content-center">
+            <div class="row">
+                <div class="col col-12 col-md-6 mb-2 mb-md-0">
+                    <div class="img d-flex justify-content-center mt-4">
+                        <img src="./assets/pexels-mikhail-nilov-7583935.jpg" style="max-width:250px;" class="rounded-3" alt="">
+                    </div>
+                </div>    
+                <div class="col">
+                    <div class="forms shadow-sm p-3 rounded mb-2 bg-body-tertiary">
+                        <div class="form-floating mb-3 ">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
                         </div>
-                    </div>    
-                    <div class="col">
-                        <div class="forms">
-                            <div class="form-floating mb-3 ">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                <label for="floatingInput">Email address</label>
-                            </div>
-                            <div class="form-floating justify-content-center ">
-                                <input type="name" class="form-control" id="floatingInput" placeholder="name">
-                                <label for="floatingInput">Name</label>
-                            </div>
-                            <!-- <div id="text-area" class="form-floating mt-3 "> -->
-                                <textarea class="form-control form-floating mt-3" placeholder= "Message" id="floatingTextarea" cols="50" rows="7"></textarea>
-                                <!-- <label for="floatingTextarea">Message</label> -->
-                            <!-- </div> -->
-                            <div class="d-flex justify-content-end mt-3">
-                                <input type="submit" class="btn btn-success" />
-                            </div>
+                        <div class="form-floating justify-content-center ">
+                            <input type="name" class="form-control" id="floatingInput" placeholder="name">
+                            <label for="floatingInput">Name</label>
                         </div>
-                    </div>                      
-                </div>
+                        <!-- <div id="text-area" class="form-floating mt-3 "> -->
+                            <textarea class="form-control form-floating mt-3" placeholder= "Message" id="floatingTextarea" cols="50" rows="7"></textarea>
+                            <!-- <label for="floatingTextarea">Message</label> -->
+                        <!-- </div> -->
+                        <div class="d-flex justify-content-end mt-3">
+                            <input type="submit" class="btn btn-success" />
+                        </div>
+                    </div>
+                </div>                      
             </div>
         </div>
         <!-- END OF CONTACT FORM -->
         <!-- MAP -->
         <div class="map">
-            <h2 class=" d-flex justify-content-center">Where we at?</h2>
+            <h2 class=" d-flex justify-content-center text-primary-emphasis">Where we at?</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.451657709685!2d120.33820859999997!3d16.704301200000046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33918de56404fc0d%3A0xed8a04430aecc7db!2sOceanside%20Villas!5e0!3m2!1sen!2sph!4v1678592286719!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <section class="mt-5">
@@ -208,7 +206,7 @@
               <nav class="footer-nav">
                 <a href="./index.html" class="text-black">Home |</a>
                 <a href="./about.html" class="text-black">About |</a>
-                <a href="./amenities.html" class="text-black">amenities |</a>
+                <a href="./amenities.html" class="text-black">Amenities |</a>
                 <a href="./rooms.html" class="text-black">Rooms |</a>
                 <a href="./contact.html" class="text-black">Contact Us</a>
               </nav>
@@ -220,5 +218,6 @@
         </div>
       </footer>
     <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
