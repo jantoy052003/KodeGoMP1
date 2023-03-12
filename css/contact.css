@@ -1,0 +1,154 @@
+body {
+    /* background: url(/assets/pexels-maria-isabella-bernotti-1049298.jpg) no-repeat center center fixed; */
+    /* background-color: #3bf4fb; */
+    background-color: whitesmoke;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100%;
+}  
+
+header {
+    background-color: whitesmoke;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: lightcoral;
+} 
+
+.banner-container{
+    background-image: url(../assets/pexels-negative-space-33999.jpg);
+    min-height: 500px;
+    min-width: 100%;
+    /* min-height: 100%; */
+    width: auto;
+    height: auto;
+    right: 0;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.floor-banner-container{
+    background-image: url(../assets/pexels-alex-andrews-821754.jpg);
+    min-height: 350px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+main {
+    margin-top: 70px;
+}
+
+/* codes for coontact.html here */
+
+.btn {
+    background-color: inherit;
+    color: inherit;
+}
+
+.testimonial-img img {
+    max-height: 40px;
+}
+
+#testi4 {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    background-image: url(../assets/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#testi1 {
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    background-image: url(../assets/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#testi2 {
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    background-image: url(../assets/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#testi3 {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    background-image: url(../assets/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+
+
+.contact-form {
+    max-width: 100%;
+    display: table;
+}
+
+.form, .img {
+    display: table-cell;
+    vertical-align:middle;
+}
+
+.map {
+    margin-top: 100px;
+    padding-bottom: 20%;
+    position: relative;
+}
+
+.map iframe {
+    margin-top: 50px;
+    height: 80%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+/*  */
+
+.footer {
+    margin-top: 50px;
+    padding-block: .9rem;
+}
+  
+.footer-nav a {
+    text-decoration: none;
+}
+
+  .footer .copyright {
+    font-size: 0.8rem;
+}
