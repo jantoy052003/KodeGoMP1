@@ -41,17 +41,17 @@
                                 <div class="form-header"> 
                                     <h1>Make your reservation</h1> 
                                 </div> 
-                                <form> 
+                                <form name="form" target="_blank"> 
                                     <div class="row"> 
                                         <div class="col-md-6"> 
                                             <div class="form-group"> 
-                                                <input class="form-control" type="date" required> 
+                                                <input class="form-control" type="date" required name="checkIn"> 
                                                 <span class="form-label">Check In</span> 
                                             </div> 
                                         </div> 
                                         <div class="col-md-6"> 
                                             <div class="form-group"> 
-                                                <input class="form-control" type="date" required> 
+                                                <input class="form-control" type="date" required name="checkOut"> 
                                                 <span class="form-label">Check out</span> 
                                             </div> 
                                         </div> 
@@ -59,7 +59,7 @@
                                     <div class="row"> 
                                         <div class="col-md-4"> 
                                             <div class="form-group"> 
-                                                <select class="form-control" required> 
+                                                <select class="form-control" required name="rooms"> 
                                                     <option value="" selected hidden>no of rooms</option> 
                                                     <option>1</option> 
                                                     <option>2</option> 
@@ -71,7 +71,7 @@
                                         </div> 
                                         <div class="col-md-4"> 
                                             <div class="form-group"> 
-                                                <select class="form-control" required> 
+                                                <select class="form-control" required name="adults"> 
                                                     <option value="" selected hidden>no of adults</option> 
                                                     <option>1</option> 
                                                     <option>2</option> 
@@ -83,7 +83,7 @@
                                         </div> 
                                         <div class="col-md-4"> 
                                             <div class="form-group"> 
-                                                <select class="form-control" required> 
+                                                <select class="form-control" required name="offspring"> 
                                                     <option value="" selected hidden>no of children</option> 
                                                     <option>0</option> 
                                                     <option>1</option> 
@@ -97,13 +97,13 @@
                                     <div class="row"> 
                                         <div class="col-md-6"> 
                                             <div class="form-group"> 
-                                                <input class="form-control" type="email" placeholder="Enter your Email"> 
+                                                <input class="form-control" type="email" placeholder="Enter your Email" name="email"> 
                                                 <span class="form-label">Email</span> 
                                             </div> 
                                         </div> 
                                         <div class="col-md-6"> 
                                             <div class="form-group"> 
-                                                <input class="form-control" type="tel" placeholder="Enter you Phone"> 
+                                                <input class="form-control" type="tel" placeholder="Enter you Phone" name="phone"> 
                                                 <span class="form-label">Phone</span> 
                                             </div> 
                                         </div> 
@@ -138,7 +138,6 @@
         </div>
       </footer>
       <script src="./js/bootstrap.bundle.js"></script>
-      <script src="./js/main.js"></script>
       <script src="./js/main.js"></script>
 </body>
 </html>

@@ -85,7 +85,7 @@ main {
     right: 0;
     bottom: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.4);
     z-index: -1;
 }
 
@@ -108,7 +108,7 @@ main {
 }
 
 .booking-form .form-control{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
     height: 60px;
     padding: 0px 25px;
     border: none;
@@ -149,17 +149,17 @@ main {
     opacity: 1;top: 10px;
 }
 
-/* .booking-form select.form-control{
+.booking-form select.form-control{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-} */
+}
 
-/* .booking-form select.form-control:invalid{
+.booking-form select.form-control:invalid{
     color: rgba(255, 255, 255, 0.5);
-} */
+}
 
-/* .booking-form select.form-control+.select-arrow{
+.booking-form select.form-control+.select-arrow{
     position: absolute;
     right: 15px;
     top: 50%;
@@ -172,13 +172,13 @@ main {
     pointer-events: none;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
-} */
+}
 
-/* .booking-form select.form-control+.select-arrow:after{
+.booking-form select.form-control+.select-arrow:after{
     content: '\279C';display: block;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-} */
+}
 
 .booking-form select.form-control option{
     color: #000;
@@ -189,7 +189,7 @@ main {
     top: -10px;
     left: 25px;
     opacity: 0;
-    color: #ff8846;
+    color: #ED7D3A;
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
@@ -220,6 +220,6 @@ main {
     transition: 0.2s all;
 }
 
-.booking-form .submit-btn:hover, .booking-form .submit-btn:focus{
-    opacity: 0.9;
+.booking-form #book-btn:hover, .booking-form #book-btn:focus{
+    opacity: 0.6;
 }
